@@ -1,0 +1,63 @@
+name: chat_two
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+dependencies:
+  modal_progress_hud_nsn: ^0.4.0
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.9.0
+  firebase_auth: ^4.4.0
+  flutter:
+    sdk: flutter
+  chat_bubbles: ^1.4.0
+  cloud_firestore: ^4.5.0
+  flutter_native_splash: ^2.2.19
+  flutter_launcher_icons: ^0.13.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "Assets/images/scholar.png"
+
+flutter_native_splash:
+  color: "#192C3E"
+  image: Assets/images/scholar.png
+  android_gravity: fill
+
+flutter:
+  uses-material-design: true
+  assets:
+    - Assets/
+    - Assets/images/scholar.png
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: Assets/Fonsts/Pacifico-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
